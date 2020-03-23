@@ -1,0 +1,39 @@
+AllCops:
+  TargetRubyVersion: 2.5.1
+
+
+Layout/ParameterAlignment:
+  EnforcedStyle: with_fixed_indentation
+
+Metrics/AbcSize:
+  Max: 20
+
+Metrics/BlockLength:
+  Exclude:
+  - spec/**/*.rb
+
+Layout/LineLength:
+  Max: 120
+  IgnoreCopDirectives: true
+
+Metrics/MethodLength:
+  Max: 20
+
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
