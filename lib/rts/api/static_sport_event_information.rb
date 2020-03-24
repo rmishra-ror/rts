@@ -63,7 +63,7 @@ module Api
     # Series types
     # List All Series types
     # GET/{sport}/series/types
-    def series_type(sport:)
+    def series_types(sport:)
       get("#{sport}/series/types")
     end
 

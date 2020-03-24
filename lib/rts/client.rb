@@ -28,11 +28,15 @@ module RTS
     private
 
     def configure_client_certificate(client_certificate, client_certificate_path)
-      @client_certificate = (client_certificate || File.read(client_certificate_path))
+      (@client_certificate = client_certificate) && return if client_certificate
+      (@client_certificate = File.read(client_certificate_path)) && return if client_certificate_path
+      raise StandardError, 'client_certificate is missing'
     end
 
     def configure_client_key(client_key, client_key_path)
-      @client_key = (client_key || File.read(client_key_path))
+      (@client_key = client_key) && return if client_key
+      (@client_key = File.read(client_key_path)) && return if client_key_path
+      raise StandardError, 'client_key is missing'
     end
 
     def validate_openssl_configuration
