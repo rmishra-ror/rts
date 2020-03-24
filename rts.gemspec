@@ -9,8 +9,9 @@ Gem::Specification.new do |spec|
   spec.version       = RTS::VERSION
   spec.authors       = ['Rahul']
   spec.email         = ['rahulismishra@gmail.com']
-  spec.summary       = 'Rest Client for rts esports JSON API'
-  spec.description   = 'Rest Client for RTS esports JSON API'
+  spec.summary       = 'A Ruby interface to the RTS JSON API.'
+  spec.description   = 'A Ruby interface to the RTS JSON API.'
+  spec.homepage      = 'https://github.com/rmishra-ror/rts'
   spec.license       = 'MIT'
 
   # Specify which files should be added to the gem when it is released.
