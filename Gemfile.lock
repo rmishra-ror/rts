@@ -30,7 +30,7 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (4.0.3)
-    rake (10.5.0)
+    rake (13.0.1)
     rest-client (2.1.0)
       http-accept (>= 1.7.0, < 2.0)
       http-cookie (>= 1.0.2, < 2.0)
@@ -65,7 +65,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.17, >= 1.17.3)
   pry
-  rake (~> 10.0)
+  rake (~> 13.0)
   rspec (~> 3.8)
   rts!
   vcr (~> 4.0)
