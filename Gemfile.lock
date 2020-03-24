@@ -1,0 +1,75 @@
+PATH
+  remote: .
+  specs:
+    rts (0.1.0)
+      openssl (~> 2.1, >= 2.1.0)
+      rest-client (~> 2.1, >= 2.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    coderay (1.1.2)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
+    diff-lcs (1.3)
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
+    hashdiff (1.0.1)
+    http-accept (1.7.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    method_source (1.0.0)
+    mime-types (3.3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2019.1009)
+    netrc (0.11.0)
+    openssl (2.1.2)
+    pry (0.13.0)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    public_suffix (4.0.3)
+    rake (10.5.0)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    rspec (3.9.0)
+      rspec-core (~> 3.9.0)
+      rspec-expectations (~> 3.9.0)
+      rspec-mocks (~> 3.9.0)
+    rspec-core (3.9.1)
+      rspec-support (~> 3.9.1)
+    rspec-expectations (3.9.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.9.0)
+    rspec-mocks (3.9.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.9.0)
+    rspec-support (3.9.2)
+    safe_yaml (1.0.5)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.6)
+    vcr (4.0.0)
+    webmock (3.8.3)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff (>= 0.4.0, < 2.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.17, >= 1.17.3)
+  pry
+  rake (~> 10.0)
+  rspec (~> 3.8)
+  rts!
+  vcr (~> 4.0)
+  webmock (~> 3.4)
+
+BUNDLED WITH
+   1.17.3
